@@ -1,0 +1,29 @@
+{
+  "name": "clonebot",
+  "version": "1.0.0",
+  "description": "A Discord bot which clones servers",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js debug",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReloadedDevs/CloneBot.git"
+  },
+  "keywords": [
+    "Discord",
+    "bot"
+  ],
+  "author": "Rxsto",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ReloadedDevs/CloneBot/issues"
+  },
+  "homepage": "https://github.com/ReloadedDevs/CloneBot#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "discord.js": "^11.3.2",
+    "superagent": "^3.8.3"
+  }
+}
